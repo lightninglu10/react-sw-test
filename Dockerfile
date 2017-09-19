@@ -16,7 +16,7 @@ RUN npm install -g -s --no-progress yarn && \
 COPY . /usr/src/app
 
 # Expose the public http port
-EXPOSE 9000
+EXPOSE 5000
 
 # build and Start server
 CMD ["yarn", "server"]
